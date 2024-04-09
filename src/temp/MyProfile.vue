@@ -131,7 +131,7 @@
       <!-- Logo cloud -->
       <div class="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
         <div
-          class="relative isolate overflow-hidden bg-slate-400 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
+          class="relative isolate overflow-hidden bg-slate-200 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
         >
           <h2
             class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
@@ -144,22 +144,37 @@
             excepteur tempor deserunt.
           </p> -->
           <div
-            class="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
+            class="flex justify-around mx-auto mt-20 max-w-lg items-center gap-x-8 gap-y-12 text-white sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
           >
-           <div>
-            <h3>Programming</h3>
-            <p>Java</p>
-            <p>Python</p> 
-           </div>
-            <div class=" text-lg">
-              <p>Research</p>
+            <div>
+              <h3 class="text-2xl mb-2">Programming Languages</h3>
+
               <ol>
-                <li>App</li>
-                <li>PP</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Javascipt</li>
               </ol>
             </div>
-
-            <img
+            <div>
+              <h3 class="text-2xl mb-2">Research Topic</h3>
+              <ol class="">
+                <li>Computer Vision & Image Processing</li>
+                <li>Neural Language Programming</li>
+                <li>Machine Learning Data Engineering</li>
+                <li>Neural Network Processing</li>
+              </ol>
+            </div>
+            <div>
+              <h3 class="text-2xl mb-2">Technology & Frame Work</h3>
+              <ol>
+                <li>React JS</li>
+                <li>Vue JS</li>
+                <li>Tensorflow</li>
+                <li>Flask</li>
+              </ol>
+            </div>
+            <!-- <img
               class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
               alt="Tuple"
@@ -172,8 +187,7 @@
               alt="SavvyCal"
               width="158"
               height="48"
-            />
-  
+            /> -->
           </div>
           <div
             class="absolute -top-24 right-0 -z-10 transform-gpu blur-3xl"
@@ -219,14 +233,11 @@
                 Project
               </h2>
               <p class="mt-6 text-xl leading-8 text-gray-600">
-                Quasi est quaerat. Sit molestiae et. Provident ad dolorem
-                occaecati eos iste. Soluta rerum quidem minus ut molestiae velit
-                error quod. Excepturi quidem expedita molestias quas.
+                I am interested in research on the AI and apply to systems also. my application use for 
+                emplyment in IT Engineering department as system and web application
               </p>
-              <p class="mt-6 text-base leading-7 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat. Quasi aperiam sit non sit neque reprehenderit.
+              <p class="mt-6 text-lg leading-7 text-gray-600">
+                Note: in image my project tell you about topic and link to github
               </p>
             </div>
             <div
@@ -235,11 +246,14 @@
               <div
                 class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end"
               >
-                <img
-                  src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
-                  alt=""
-                  class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                />
+                <a
+                  href="https://github.com/mai-reaska/cnn-images"
+                  class="text-lg mt-10"
+                  ><img
+                    src="../assets/emotion_image.jpg"
+                    alt=""
+                    class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                /></a>
               </div>
               <div
                 class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"
@@ -247,21 +261,29 @@
                 <div
                   class="order-first flex w-64 flex-none justify-end self-end lg:w-auto"
                 >
-                  <img
-                    src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                    alt=""
-                    class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                  />
+                  <a
+                    target="_blank"
+                    href="https://github.com/ITE-Develop/ite-inventory-ui"
+                    class="text-lg mt-10"
+                  >
+                    <img
+                      src="../assets/inventery.png"
+                      alt=""
+                      class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                  /></a>
                 </div>
                 <div
                   class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
+                ></div>
+                <a
+                  target="_blank"
+                  href="https://github.com/IteDevelop/ite-khmer-ocr"
+                  class="text-lg mt-10"
+                  ><img
+                    src="../assets/ocr.png"
                     alt=""
-                    class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                  />
-                </div>
+                    class="aspect-[7/5] w-[36rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                /></a>
                 <!-- <div
                   class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none"
                 >
@@ -278,7 +300,7 @@
       </div>
 
       <!-- Stats -->
-      <div class="mx-auto max-w-7xl px-6 sm:mt-40 lg:px-8">
+      <div class="mb-10 mx-auto max-w-7xl px-6 sm:mt-40 lg:px-8">
         <div class="mx-auto max-w-2xl lg:mx-0">
           <h2
             class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
@@ -288,7 +310,7 @@
         </div>
         <div class="flex mt-5">
           <div
-            class="justify-between gap-x-16 gap-y-8 mr-5 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
+            class="justify-between gap-x-16 gap-y-8 mr-5 rounded-2xl bg-indigo-400 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
           >
             <p class="flex-none text-3xl font-bold tracking-tight text-white">
               Mr. Heng Sokha
@@ -305,7 +327,7 @@
             </div>
           </div>
           <div
-            class="justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
+            class="justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-400 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
           >
             <p class="flex-none text-3xl font-bold tracking-tight text-white">
               Dr. Srun Sovila
@@ -323,7 +345,7 @@
       </div>
 
       <!-- Content section -->
-      <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+      <!-- <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
         <div
           class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row"
         >
@@ -395,7 +417,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </main>
 
     <!-- Footer -->
