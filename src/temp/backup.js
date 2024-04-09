@@ -14,6 +14,99 @@
 -->
 <template>
   <div class="bg-white">
+    <!-- Header -->
+    <!-- <header class="absolute inset-x-0 top-0 z-50">
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        aria-label="Global"
+      >
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img
+              class="h-8 w-auto"
+              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button
+            type="button"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            @click="mobileMenuOpen = true"
+          >
+            <span class="sr-only">Open main menu</span>
+            <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a
+            v-for="item in navigation"
+            :key="item.name"
+            :href="item.href"
+            class="text-sm font-semibold leading-6 text-gray-900"
+            >{{ item.name }}</a
+          >
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+            >Log in <span aria-hidden="true">&rarr;</span></a
+          >
+        </div>
+      </nav>
+      <Dialog
+        as="div"
+        class="lg:hidden"
+        @close="mobileMenuOpen = false"
+        :open="mobileMenuOpen"
+      >
+        <div class="fixed inset-0 z-50" />
+        <DialogPanel
+          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+        >
+          <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+              <img
+                class="h-8 w-auto"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                alt=""
+              />
+            </a>
+            <button
+              type="button"
+              class="-m-2.5 rounded-md p-2.5 text-gray-700"
+              @click="mobileMenuOpen = false"
+            >
+              <span class="sr-only">Close menu</span>
+              <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+            </button>
+          </div>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-500/10">
+              <div class="space-y-2 py-6">
+                <a
+                  v-for="item in navigation"
+                  :key="item.name"
+                  :href="item.href"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >{{ item.name }}</a
+                >
+              </div>
+              <div class="py-6">
+                <a
+                  href="#"
+                  class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >Log in</a
+                >
+              </div>
+            </div>
+          </div>
+        </DialogPanel>
+      </Dialog>
+    </header> -->
+
     <main class="isolate">
       <!-- Hero section -->
       <div
@@ -45,41 +138,6 @@
                 in university life. I'm excited to be here and look forward to
                 connecting with you all!
               </p>
-              <ul class="text-2xl text-black mt-5">
-                <li>status: single</li>
-                <li>phone: +855 878 375 64</li>
-                <li>e-mail: reaksamai8899@gmail.com</li>
-                <li>outlook: 2820.mai.reaksa@rupp.edu.kh</li>
-                <li>address: phone penh</li>
-                <li>major: computer scince and enginerring</li>
-                <ul class="text-3xl">
-                  social media:
-                  <a
-                    href="https://www.facebook.com/profile.php?id=100076968653082"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-facebook px-3"></i
-                  ></a>
-                  <a
-                    href="https://twitter.com/MaiReaksa1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-twitter"></i
-                  ></a>
-                  <a
-                    href="https://github.com/mai-reaska"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-github px-3"></i>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/mai-reaksa-a99944206/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-linkedin px-3"></i>
-                  </a>
-                </ul>
-              </ul>
             </div>
             <img
               src="../assets/profile.jpg"
@@ -131,34 +189,35 @@
       <!-- Logo cloud -->
       <div class="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
         <div
-          class="relative isolate overflow-hidden bg-slate-400 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
+          class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
         >
           <h2
             class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
           >
-            Skill
+            Our customers love us
           </h2>
-          <!-- <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
+          <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
             Aliquip reprehenderit incididunt amet quis fugiat ut velit. Sit
             occaecat labore proident cillum in nisi adipisicing officia
             excepteur tempor deserunt.
-          </p> -->
+          </p>
           <div
             class="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
           >
-           <div>
-            <h3>Programming</h3>
-            <p>Java</p>
-            <p>Python</p> 
-           </div>
-            <div class=" text-lg">
-              <p>Research</p>
-              <ol>
-                <li>App</li>
-                <li>PP</li>
-              </ol>
-            </div>
-
+            <img
+              class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
+              alt="Transistor"
+              width="158"
+              height="48"
+            />
+            <img
+              class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
+              alt="Reform"
+              width="158"
+              height="48"
+            />
             <img
               class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
@@ -173,7 +232,13 @@
               width="158"
               height="48"
             />
-  
+            <img
+              class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
+              alt="Statamic"
+              width="158"
+              height="48"
+            />
           </div>
           <div
             class="absolute -top-24 right-0 -z-10 transform-gpu blur-3xl"
@@ -216,7 +281,7 @@
               <h2
                 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
               >
-                Project
+                Our people
               </h2>
               <p class="mt-6 text-xl leading-8 text-gray-600">
                 Quasi est quaerat. Sit molestiae et. Provident ad dolorem
@@ -262,7 +327,7 @@
                     class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
-                <!-- <div
+                <div
                   class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none"
                 >
                   <img
@@ -270,7 +335,7 @@
                     alt=""
                     class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
-                </div> -->
+                </div>
               </div>
             </div>
           </div>
@@ -278,7 +343,7 @@
       </div>
 
       <!-- Stats -->
-      <div class="mx-auto max-w-7xl px-6 sm:mt-40 lg:px-8">
+      <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
         <div class="mx-auto max-w-2xl lg:mx-0">
           <h2
             class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
@@ -286,38 +351,40 @@
             REFERENCES
           </h2>
         </div>
-        <div class="flex mt-5">
+        <div
+          class="mx-auto flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end"
+        >
           <div
-            class="justify-between gap-x-16 gap-y-8 mr-5 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
-          >
-            <p class="flex-none text-3xl font-bold tracking-tight text-white">
-              Mr. Heng Sokha
-            </p>
-            <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              <p class="text-lg font-semibold tracking-tight text-white mt-4">
-                Vioce Dean Faucalty of Engineering, Royal University of Phnom
-                Penh
-              </p>
-              <ul class="text-xl text-white mt-4">
-                <li>Phone: +855 000 000 00</li>
-                <li>E-mail: sokhaheng@gmail.com</li>
-              </ul>
-            </div>
-          </div>
-          <div
-            class="justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
+            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
           >
             <p class="flex-none text-3xl font-bold tracking-tight text-white">
               Dr. Srun Sovila
             </p>
 
-            <p class="text-lg font-semibold tracking-tight text-white mt-4">
+            <p class="text-lg font-semibold tracking-tight text-white">
               Head of IT Engineering Department
             </p>
-            <ul class="text-xl text-white mt-10">
+            <ul class="text-lg mt-4">
               <li>Phone: +855 000 000 00</li>
               <li>E-mail: sokhaheng@gmail.com</li>
             </ul>
+          </div>
+          <div
+            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
+          >
+            <p class="flex-none text-3xl font-bold tracking-tight text-white">
+              Mr. Heng Sokha
+            </p>
+            <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
+              <p class="text-lg font-semibold tracking-tight text-white">
+                Vioce Dean Faucalty of Engineering, Royal University of Phnom
+                Penh
+              </p>
+              <ul class="text-lg mt-4">
+                <li>Phone: +855 000 000 00</li>
+                <li>E-mail: sokhaheng@gmail.com</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
