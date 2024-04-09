@@ -45,38 +45,37 @@
                 in university life. I'm excited to be here and look forward to
                 connecting with you all!
               </p>
-              <ul class="text-2xl text-black mt-5">
-                <li>status: single</li>
-                <li>phone: +855 878 375 64</li>
-                <li>e-mail: reaksamai8899@gmail.com</li>
-                <li>outlook: 2820.mai.reaksa@rupp.edu.kh</li>
-                <li>address: phone penh</li>
-                <li>major: computer scince and enginerring</li>
-                <ul class="text-3xl">
-                  social media:
+              <ul class="text-xl text-black mt-5">
+                <li class="my-1">Phone Number: +855 878 375 64</li>
+                <li class="my-1">E-mail: reaksamai8899@gmail.com</li>
+                <li class="my-1">Outlook: 2820.mai.reaksa@rupp.edu.kh</li>
+                <li class="my-1">Address: phone penh</li>
+                <li class="my-1">Major: computer scince and enginerring</li>
+                <ul class="text-xl my-1">
+                  Social Media:
                   <a
                     href="https://www.facebook.com/profile.php?id=100076968653082"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><i class="fa-brands fa-facebook px-3"></i
+                    ><i class="fa-brands fa-facebook px-3 text-3xl"></i
                   ></a>
                   <a
                     href="https://twitter.com/MaiReaksa1"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><i class="fa-brands fa-twitter"></i
+                    ><i class="fa-brands fa-twitter text-3xl"></i
                   ></a>
                   <a
                     href="https://github.com/mai-reaska"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><i class="fa-brands fa-github px-3"></i>
+                    ><i class="fa-brands fa-github px-3 text-3xl"></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/in/mai-reaksa-a99944206/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><i class="fa-brands fa-linkedin px-3"></i>
+                    ><i class="fa-brands fa-linkedin px-3 text-3xl"></i>
                   </a>
                 </ul>
               </ul>
@@ -134,7 +133,7 @@
           class="relative isolate overflow-hidden bg-slate-200 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
         >
           <h2
-            class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
+            class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-black sm:text-4xl"
           >
             Skill
           </h2>
@@ -144,7 +143,7 @@
             excepteur tempor deserunt.
           </p> -->
           <div
-            class="flex justify-around mx-auto mt-20 max-w-lg items-center gap-x-8 gap-y-12 text-white sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
+            class="flex justify-around mx-auto mt-20 max-w-lg items-center gap-x-8 gap-y-12 text-black sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
           >
             <div>
               <h3 class="text-2xl mb-2">Programming Languages</h3>
@@ -321,7 +320,7 @@
                 Penh
               </p>
               <ul class="text-xl text-white mt-4">
-                <li>Phone: +855 000 000 00</li>
+                <li>Phone: +855 129 591 44</li>
                 <li>E-mail: sokhaheng@gmail.com</li>
               </ul>
             </div>
@@ -337,7 +336,7 @@
               Head of IT Engineering Department
             </p>
             <ul class="text-xl text-white mt-10">
-              <li>Phone: +855 000 000 00</li>
+              <li>Phone: +855 128 943 25</li>
               <li>E-mail: sokhaheng@gmail.com</li>
             </ul>
           </div>
@@ -437,9 +436,9 @@ const navigation = [
 ];
 const timeline = [
   {
-    name: "Research Computer Vision and Image Processing",
+    name: "Join Assistant ITE Department",
     description:
-      "After year2. I am interest on research AI and computer vision when join workshop in university . Until now i am apply my thesis for final year. i going to create system apply computer vision for recognition emotion human ",
+      "Starting reading research AI and computer vision paper and join workshop in university . Join assistant IT Engineering daprtment",
     date: "2022 - 2023",
     dateTime: "2021-08",
   },
@@ -453,15 +452,15 @@ const timeline = [
   {
     name: "Team Leader System in ITE Department ",
     description:
-      " I am Implement Project Inventory System support for IT Engineering department. i am team leader. we are use web application using Python, Javascipt, and Postgresql database. my problem is we are difficult for manage  office equipment so i have develop application for store and manage in department.",
+      "Implement Project Inventory System support for IT Engineering department. We are use web application using Python, Javascipt, and Postgresql database.",
     date: "2024 - Now",
     dateTime: "2022-02",
   },
   {
-    name: "Global launch of product",
+    name: "Research Thesis",
     description:
-      "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.",
-    date: "Dec 2022",
+      "Apply Computer Vision for recognity emotion human and implement education and e-learning systems",
+    date: "Now",
     dateTime: "2022-12",
   },
 ];
